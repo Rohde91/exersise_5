@@ -11,12 +11,12 @@ public class exercise_2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        int guess1 = scanner.nextInt();
+        int guess = scanner.nextInt();
         int number = random.nextInt(100) + 1;
 
-        int offamount = number - guess1;
+        int offamount = number - guess;
 
-        System.out.println("Your guess was: " + guess1);
+        System.out.println("Your guess was: " + guess);
         System.out.println("I was thinking of: " + number);
 
         if (offamount==0){
