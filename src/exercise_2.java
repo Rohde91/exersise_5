@@ -3,10 +3,8 @@ import java.util.Scanner;
 
 public class exercise_2 {
 
-    public static void main(String[] args) {
-
+    public static void numberGuess(){
         System.out.println("Time for guessing a number.\n[type 1-100]");
-
         Random random = new Random();
 
         Scanner scanner = new Scanner(System.in);
@@ -26,5 +24,14 @@ public class exercise_2 {
         else {
             System.out.println("You were " + offamount + " off.");
         }
+    }
+
+    public static void main(String[] args) {
+        numberGuess();
+        numberGuess();
+        numberGuess();
+
+        System.out.println("The end!");
+        return;
     }
 }
