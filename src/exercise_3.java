@@ -4,20 +4,23 @@ public class exercise_3 {
 
     public static void Fermat(double a, double b, double c, double n){
 
-        Scanner scanner = new Scanner(System.in);
-
-        double a = scanner.nextDouble();
-        double b = scanner.nextDouble();
-        double c = scanner.nextDouble();
-        double n = scanner.nextDouble();
-
-        double x = Math.pow(a,n) + Math.pow(b,n)=Math.pow(c,n);
-
-        System.out.println(x);
+        System.out.println((Math.pow(a,n))+(Math.pow(b,n))==Math.pow(c,n));
     }
 
     public static void main(String[] args) {
-        Fermat();
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("First number:");
+        double a = scanner.nextDouble();
+        System.out.println("Second number:");
+        double b = scanner.nextDouble();
+        System.out.println("Third number");
+        double c = scanner.nextDouble();
+        System.out.println("Last number, the ^");
+        double n = scanner.nextDouble();
+
+        Fermat (a,b,c,n);
 
         /*if (x > 2 || x < 2) {
             System.out.println("He was wrong");
@@ -26,3 +29,4 @@ public class exercise_3 {
         }*/
     }
 }
+        // Help for this!
